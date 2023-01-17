@@ -11,3 +11,4 @@ Additionally, detailed assignment instructions will be here as they become avail
 The file *Syllabus.pdf* is the official course syllabus.
 
 This README file contains information about my uploaded assignments
+
