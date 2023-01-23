@@ -1,0 +1,30 @@
+# Assignment 2
+#4
+csv_files <- list.files(path="Data",pattern= ".csv")
+
+#5
+length(csv_files)
+
+#6
+df <- read.csv("Data/wingspan_vs_mass.csv")
+
+#7
+head(df,n=5)
+
+#8
+b <- list.files(recursive = TRUE,path = "Data",pattern = "^b",
+           full.names = TRUE)
+
+#9
+for (b in 1:3) {
+  print(b)
+}
+
+#10
+head(df,n=5)
+.csv <- list.files(recursive = TRUE,
+           path = "Data",pattern = "csv$",
+           full.names = TRUE)
+for (.csv in 1:5) {
+  print(.csv)
+}
